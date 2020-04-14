@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B489EDD52445DEFF00715355 /* RoomStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489EDD42445DEFF00715355 /* RoomStore.swift */; };
 		B4E71C1424454BEE00376CF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E71C1324454BEE00376CF9 /* AppDelegate.swift */; };
 		B4E71C1624454BEE00376CF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E71C1524454BEE00376CF9 /* SceneDelegate.swift */; };
 		B4E71C1824454BEE00376CF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E71C1724454BEE00376CF9 /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B489EDD42445DEFF00715355 /* RoomStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStore.swift; sourceTree = "<group>"; };
 		B4E71C1024454BEE00376CF9 /* Rooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E71C1324454BEE00376CF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4E71C1524454BEE00376CF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				B4E71C2A2445582400376CF9 /* Room.xcassets */,
 				B4E71C1324454BEE00376CF9 /* AppDelegate.swift */,
 				B4E71C2724454F2C00376CF9 /* Room.swift */,
+				B489EDD42445DEFF00715355 /* RoomStore.swift */,
 				B4E71C2E2445645800376CF9 /* RoomCell.swift */,
 				B4E71C1524454BEE00376CF9 /* SceneDelegate.swift */,
 				B4E71C1724454BEE00376CF9 /* ContentView.swift */,
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B489EDD52445DEFF00715355 /* RoomStore.swift in Sources */,
 				B4E71C2D244561A800376CF9 /* RoomDetail.swift in Sources */,
 				B4E71C1424454BEE00376CF9 /* AppDelegate.swift in Sources */,
 				B4E71C1624454BEE00376CF9 /* SceneDelegate.swift in Sources */,
