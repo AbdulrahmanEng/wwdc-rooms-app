@@ -53,6 +53,8 @@ struct ContentView_Previews: PreviewProvider {
             
             ContentView(store: RoomStore(rooms: testData))
                 .environment(\.sizeCategory, .extraExtraExtraLarge)
+                .environment(\.layoutDirection, .rightToLeft)
+                .environment(\.locale, .init(identifier: "ar"))
             
             ContentView(store: RoomStore(rooms: testData))
             .environment(\.colorScheme, .dark)

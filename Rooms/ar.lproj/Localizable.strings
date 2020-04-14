@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Rooms
+
+  Created by Abdulrahman on 14/04/2020.
+  Copyright © 2020 Abdulrahman. All rights reserved.
+*/
+"Rooms" = "غرف";
+"Add Room" = "أضف غرفة";
+"Damascus" = "دمشق";
+"Athens" = "أثينا";
+"Tokyo" = "طوكيو";
+"Delphi" = "دلفي";
+"Uppsala" = "أوبسالا";
+"Babylon" = "بابل";
+"Petra" = "البتراء";
