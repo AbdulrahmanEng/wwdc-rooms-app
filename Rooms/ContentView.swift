@@ -9,13 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    var rooms: [Room] = []
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            List(rooms) { room in
+                RoomCell(room: room)
+            }.navigationBarTitle(Text("Rooms"))
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(rooms: testData)
     }
 }
